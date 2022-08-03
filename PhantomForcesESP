@@ -1,7 +1,5 @@
 --Script by Akame#1531 | Also join our server! https://discord.gg/5G6PSexc78
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/carter-fr/RandomStuff/main/discordinvmodule.lua"))():discordInvite("https://discord.gg/5G6PSexc78")
-
 local plr = game.Players.LocalPlayer
 
 local l_character = plr.Character or plr.CharacterAdded:wait()
@@ -127,3 +125,5 @@ rs.RenderStepped:Connect(function()
        end
    end
 end)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/carter-fr/RandomStuff/main/discordinvmodule.lua"))():discordInvite("https://discord.gg/5G6PSexc78")
